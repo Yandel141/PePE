@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.user-menu {
+    display: flex;
+}
+
+.user-menu li {
+    margin-left: 10px;
+}
+
+.user-menu li:first-child {
+    margin-left: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.car-info {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+    /* Estilos para las imágenes del carrusel */
+    #myCarousel img {
+        width: auto;
+        height: 722px; /* Ajusta la altura como desees */
+    }
+    .carousel-control {
+        font-size: 40px; /* Ajusta el tamaño de las flechas */
+        height: 80px; /* Ajusta la altura de las flechas */
+        width: 5%; /* Ajusta el ancho de las flechas */
+        top: 80%; /* Ajusta la posición vertical */
+        transform: translateY(550%); /* Centra verticalmente las flechas */
+    }
+    
+    .carousel-control.left {
+        left: 0; /* Ajusta la posición horizontal de la flecha izquierda */
+    }
+    
+    .carousel-control.right {
+        right: 0; /* Ajusta la posición horizontal de la flecha derecha */
+    }
+    #header-fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .content {
+        margin-top: 50px; /* Altura del título */
+    }
+  
